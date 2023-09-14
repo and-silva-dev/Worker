@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package entities;
+//Classe departamento
 
-/**
- *
- * @author Anderson
- */
 public class Department {
-    
+
+    //Atributos
+    private String name;
+
+    //Construtores
+    public Department() {
+    }
+
+    public Department(String name) {
+        this.name = name;
+    }
+
+    //Metodos GET e SET
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }
